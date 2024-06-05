@@ -1,4 +1,5 @@
 import "./App.css";
+import AddPostForm from "./features/posts/AddPostForm";
 import PostsList from "./features/posts/PostsList";
 // import Counter from "./features/counter/Counter";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       {/* <h4>Counter App</h4>
       <Counter /> */}
+      <AddPostForm />
       <PostsList />
     </div>
   );
